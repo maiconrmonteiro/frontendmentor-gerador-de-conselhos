@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section {
+    background-color: hsl(217, 19%, 24%);
+    max-width: 540px;
+    min-height: 340px;
+    border-radius: 20px;
+    padding: 45px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numPosicao {
+    font-size: .8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: hsl(150, 100%, 66%);
+}
+
+h1 {
+    margin-top: 25px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+picture{
+    margin-top: 50px;
+}
+
+button {
+    display: flex;
+    background-color: hsl(150, 100%, 66%);
+    border: 20px solid hsl(150, 100%, 66%);
+    border-radius: 50px;
+    margin-top: 25px;
+    position: relative;
+    bottom: -30px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0px 5px 56px 1px rgba(82,255,168,1);
+}
